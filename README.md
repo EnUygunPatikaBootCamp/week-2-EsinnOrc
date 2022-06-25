@@ -116,9 +116,9 @@ class Plane extends Vehicles
 
 
 $car = new Car("00 XWX 01 ","Tesla","ZWXI-3",4,"");
-$car->setPlateNo('00 XWX 01');
+$car->setPlateNo('Değişiklik');
 $car->setBrand('yeni');
-$car->setModel('ZWXI-3');
+$car->setModel('Düzenleme');
 $car->setNumberWheels(4);
 
 echo $car->vehiclesType();
